@@ -1,0 +1,5 @@
+.vscode
+stats/*
+.env
+node_modules
+source/
