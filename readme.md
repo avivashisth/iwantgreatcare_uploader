@@ -1,7 +1,7 @@
 ## Setting Up
 
 1. Download and install [NodeJS](https://nodejs.org/en/download/).
-2. Open console/cmd/terminal and navigate to current directory.
+2. Open console/cmd/terminal and navigate to current cloned directory.
 3. For the first time only, run the following command
     ```javascript
     npm ci
@@ -12,7 +12,6 @@
     ```javascript
     npm start
     ```
-7. Successfully uploaded files will be moved to **processed** directory.
 
 #### Notes
 1. Errored files name will be created available in **./stats/error.json**.
