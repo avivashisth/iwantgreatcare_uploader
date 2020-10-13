@@ -11,7 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.768.0",
     "dotenv": "^8.2.0",
     "fs-extra": "^9.0.1",
     "lodash.chunk": "^4.2.0",
