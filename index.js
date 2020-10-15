@@ -61,11 +61,10 @@ const init = (async () => {
     try {
       response = await uploadFilesList({ fileList: fileChunk });
 
-      const errorredFileName = response.filter(stat => !stat.ok)
-        .map(stat => stat.fileName);
+      const errorList = response.filter(stat => !stat.ok)
 
       await updateStats({
-        data: errorredFileName,
+        data: errorList,
         targetFileName: './stats/error.json'
       });
     } catch (e) {
